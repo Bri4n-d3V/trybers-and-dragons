@@ -2,9 +2,9 @@ export default abstract class Race {
   public readonly name: string;
   public readonly dexterity: number;
 
-  constructor(n: string, d: number) {
-    this.name = n;
-    this.dexterity = d;
+  constructor(name: string, dexterity: number) {
+    this.name = name;
+    this.dexterity = dexterity;
   }
 
   static createdRacesInstances(): number {
